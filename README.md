@@ -10,3 +10,5 @@ uiuc cs498
     d. yum install git
     e. copy https [address] of the file
     d. git clone [address]
+    e. yum install python3-pip
+    f. python3 -m pip install flask
