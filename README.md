@@ -23,10 +23,11 @@ uiuc cs498
     
     
     •	running server
+    
         - python3 [name.py]
         
         - flask --app [name of .py] run --host=0.0.0.0 --port=xxxx
-        -
+        
         - curl -X POST -H "content-Type:application/json” -d '{"num":100}' [public address]:[port]
 
     •	Use the same flask port number in your test.py file for the two EC2 instances, and Target Groups
