@@ -27,6 +27,8 @@ uiuc cs498
         flask --app [name of .py] run --host=0.0.0.0 --port=xxxx
 
     •	Use the same flask port number in your test.py file for the two EC2 instances, and Target Groups
+    
     •	Your Security Group should allow all HTTP traffic and a Custom TCP rule for your flask port number
+    
     •	Load Balancer can be listening to Port 80
 
