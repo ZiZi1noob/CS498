@@ -12,8 +12,7 @@ def index():
         seed = y["num"]
         return jsonify({"num": seed})
     elif(request.method == 'GET'):
-        return f"{seed}"
-    
+        return str(seed)
 
 if __name__ ==  '__main__':
     global seed
