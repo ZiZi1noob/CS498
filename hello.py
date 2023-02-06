@@ -11,4 +11,6 @@ def hello():
         return str(seed)
 
 if __name__ ==  '__main__':
+    global seed
+    seed = 0
     app.run(host='0.0.0.0',port = 5000)
