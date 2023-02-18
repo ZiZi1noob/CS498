@@ -1,5 +1,5 @@
-# cs498
-uiuc cs498
+# cs498 
+uiuc cs498 -- mp2
 
 
 1. create EC2
